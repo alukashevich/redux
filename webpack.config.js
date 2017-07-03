@@ -18,10 +18,10 @@ module.exports = {
         new webpack.HotModuleReplacementPlugin(),
         new webpack.NoErrorsPlugin()
     ],
-    module: { //Обновлено
-        loaders: [ //добавили babel-loader
+    module: {
+        loaders: [
             {
-                loaders: ['babel-loader'],
+                loaders: ['react-hot', 'babel-loader'], //добавили loader 'react-hot'
                 include: [
                     path.resolve(__dirname, "src"),
                 ],
