@@ -1,3 +1,6 @@
+import 'jquery'
+import 'bootstrap/dist/js/bootstrap'
+import 'bootstrap/dist/css/bootstrap.css'
 import 'babel-polyfill'
 import React from 'react'
 import { render } from 'react-dom'
